@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+#createOrder .form-control, #pastOrder .form-control{
+    width: 10%;
+    padding: 1.95rem 0.3rem 0.35rem 0;
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid #ced4da;
+    border-radius: 0;
+    text-align: left;
+    font: normal normal normal 17px/27px Open Sans;
+    letter-spacing: 0.6px;
+    color: #77838F;
+    opacity: 1;
+    float: right;
+    right: 2rem;
+    top: 2rem;
+    position: absolute;
+  }
+  #createOrder .search-div, #pastOrder .search-div{
+    position: absolute;
+    top: 4rem;
+    right: 9rem;
+  }
+  #createOrder .search-div img, #pastOrder .search-div img{
+    width:12px
+  }
